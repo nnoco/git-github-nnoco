@@ -16,7 +16,7 @@ public class LottoGenerator {
 		while(generated.size() < 6) {
 			int num = random.nextInt(45) + 1;
 			
-			// 생성된 목록에 포함되어 있지 않으면 추가
+			//// 생성된 목록에 포함되어 있지 않으면 추가 //
 			if(!contains(generated, num)) {
 				result[index++] = num;
 				generated.add(num);
